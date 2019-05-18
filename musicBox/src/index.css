@@ -1,0 +1,268 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html,
+body
+{
+    font-family: 微软雅黑, sans-serif;
+
+    height: 100%;
+
+    background: #d2d5d6;
+
+    -webkit-font-smoothing: antialiased;
+}
+span
+{
+    cursor: pointer;
+}
+a
+{
+    text-decoration: none;
+}
+.wrapper
+{
+    position: relative;
+    top: 50%;
+
+    overflow: hidden;
+
+    width: 440px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: -250px;
+
+    border-radius: 10px;
+    background: #eef1f2;
+    box-shadow: 0 6px 7px #999;
+}
+.background
+{
+    position: relative;
+
+    width: 100%;
+    height: 270px;
+
+    text-align: center;
+}
+.background .music-lyric
+{
+    width: 100%;
+    height: 230px;
+    padding: 20px 0;
+
+    background-color: rgba(100, 100, 100, .5);
+}
+.background .music-lyric .lyric-view
+{
+    overflow: hidden;
+
+    height: 230px;
+}
+.background .music-lyric ul
+{
+    position: relative;
+
+    transition: all 1s;
+}
+.lyric li
+{
+    font-size: 12px ;
+
+    position: relative;
+
+    padding: 5px 0 2px 0;
+
+    transition: all 1s;
+    text-align: center;
+
+    color: rgba(255, 255, 255, .6);
+}
+.lyric li.active
+{
+    font-size: 13px;
+
+    color: #fff;
+}
+.content
+{
+    width: 400px;
+    height: 100px;
+    padding: 20px 20px 10px 20px;
+}
+.content .music-massage
+{
+    display: inline-block;
+
+    width: 280px;
+    height: 100%;
+}
+.content .music-massage p
+{
+    cursor: default;
+}
+.content .musicname
+{
+    font-size: 26px;
+    font-weight: bold;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    color: #455569;
+}
+.content .musicer
+{
+    font-size: 18px;
+    font-weight: bold;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    color: #455569;
+}
+.content .record
+{
+    font-size: 14px;
+
+    margin-top: 4px;
+
+    color: #455569;
+}
+.content .music-icon
+{
+    float: right;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.content .music-icon a,
+.content .music-icon span
+{
+    font-size: 22px;
+
+    margin-left: 10px;
+}
+span.colored,
+a.colored
+{
+    color: #cdd2d7;
+}
+span.stared
+{
+    color: #feec98;
+}
+span.loved
+{
+    color: #fe8698;
+}
+.content .music-icon span:hover
+{
+    text-shadow: 1px 1px 1px #ccc;
+}
+.basebar
+{
+    position: relative;
+
+    display: block;
+
+    width: 400px;
+    height: 4px;
+    margin: 0 auto 10px auto;
+
+    border: none;
+    border-radius: 2px;
+    background-color: #414141;
+}
+.basebar .progressbar
+{
+    display: block;
+
+    width: 0;
+    height: 4px;
+
+    border: none;
+    border-radius: 2px;
+    background-color: #cdd2d7;
+}
+.controls
+{
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.controls .play-control,
+.music-control
+{
+    display: inline-block;
+}
+.controls .play-control .btn1
+{
+    font-size: 20px;
+    line-height: 38px;
+
+    display: inline-block;
+
+    width: 38px;
+    height: 38px;
+
+    text-align: center;
+
+    color: #d9d9d9;
+    border-radius: 19px;
+    background: #414141;
+}
+.controls .play-control .btn2,
+.btn3
+{
+    font-size: 16px;
+    line-height: 28px;
+
+    display: inline-block;
+
+    width: 28px;
+    height: 28px;
+
+    text-align: center;
+
+    color: #d9d9d9;
+    border-radius: 14px;
+    background: #414141;
+}
+.controls .music-control
+{
+    line-height: 38px;
+
+    float: right;
+}
+.controls .music-control span
+{
+    font-size: 22px;
+
+    margin-left: 10px;
+}
+.controls .music-control span:hover
+{
+    text-shadow: 1px 1px 1px #ccc;
+}
+.controls .music-control span.lyriced
+{
+    color: #414141;
+}
+.controls .music-control span.recycleed
+{
+    color: #414141;
+}
